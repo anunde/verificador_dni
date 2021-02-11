@@ -10,16 +10,25 @@
 </head>
 <body class="container">
     <div class="mt-5">
-        <h1 class="text-center">Comprobar veracidad Documento Nacional de Identidad.</h1>
+        <h1 class="text-center">Validador de documentos</h1>
         <form class="col-md-8 mt-5 mx-auto border rounded shadow-sm" id="formulario">
-            <div class="mx-auto p-4">
-                <label for="dni" class="form-label">NIF (Número de identificación Fiscal)</label>
-                <input type="text" class="form-control" id="dni" placeholder="Introduce un NIF">    
+            <div class="mx-auto p-4 form-group">
+                <label for="nif" class="form-label">NIF (Número de identificación Fiscal)</label>
+                <div class="input-group">
+                    <input type="text" class="form-control col-md-8" id="nif" placeholder="Introduce un NIF" data-tipo="nif">
+                    <button type="button" id="nifBtn" class="btn btn-success col-md-2 ml-2">Validar</button> 
+                </div>
             </div>
-            <button type="button" id="btnDni" class="btn btn-success mt-2 mb-4 ml-4">Comprobar</button>
+            <div class="mx-auto p-4 form-group">
+                <label for="nie" class="form-label">NIE (Número de identidad de Extranjero)</label>
+                <div class="input-group">
+                    <input type="text" class="form-control col-md-8" id="nie" placeholder="Introduce un NIE" data-tipo="nie">
+                    <button type="button" id="nieBtn" class="btn btn-success col-md-2 ml-2">Validar</button> 
+                </div>
+            </div>
         </form>
     </div>
 
-    <script src="js/app.js" type="module"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>

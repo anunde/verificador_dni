@@ -1,3 +1,9 @@
 .not-allowed {
     cursor: not-allowed;
 }
+
+div svg {
+    width: 25px;
+    height: 100%;
+    margin-right: 2px;
+}
