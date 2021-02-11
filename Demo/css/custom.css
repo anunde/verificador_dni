@@ -1,3 +1,7 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/17/17/14/background-992850_960_720.png);
+}
+
 .not-allowed {
     cursor: not-allowed;
 }

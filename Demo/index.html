@@ -10,22 +10,24 @@
 </head>
 <body class="container">
     <div class="mt-5">
-        <h1 class="text-center">Validador de documentos</h1>
-        <form class="col-md-8 mt-5 mx-auto border rounded shadow-sm" id="formulario">
-            <div class="mx-auto p-4 form-group">
-                <label for="nif" class="form-label">NIF (Número de identificación Fiscal)</label>
-                <div class="input-group">
-                    <input type="text" class="form-control col-md-8" id="nif" placeholder="Introduce un NIF" data-tipo="nif">
-                    <button type="button" id="nifBtn" class="btn btn-success col-md-2 ml-2">Validar</button> 
+        <form class="col-md-10 mt-5 mx-auto border rounded shadow-sm bg-white" id="formulario">
+            <fieldset class="border p-4 m-2 mb-4">
+                <legend class="text-info">Validador de documentos</legend>
+                <div class="mx-auto form-group mb-4">
+                    <label for="nif" class="form-label">NIF (Número de identificación Fiscal)</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control col-md-8" id="nif" placeholder="Introduce un NIF" data-tipo="nif">
+                        <button type="button" id="nifBtn" class="btn btn-success col-md-2 ml-2">Validar</button> 
+                    </div>
                 </div>
-            </div>
-            <div class="mx-auto p-4 form-group">
-                <label for="nie" class="form-label">NIE (Número de identidad de Extranjero)</label>
-                <div class="input-group">
-                    <input type="text" class="form-control col-md-8" id="nie" placeholder="Introduce un NIE" data-tipo="nie">
-                    <button type="button" id="nieBtn" class="btn btn-success col-md-2 ml-2">Validar</button> 
+                <div class="mx-auto form-group mb-4">
+                    <label for="nie" class="form-label">NIE (Número de identidad de Extranjero)</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control col-md-8" id="nie" placeholder="Introduce un NIE" data-tipo="nie">
+                        <button type="button" id="nieBtn" class="btn btn-success col-md-2 ml-2">Validar</button> 
+                    </div>
                 </div>
-            </div>
+            </fieldset>
         </form>
     </div>
 
